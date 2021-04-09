@@ -1,0 +1,14 @@
+﻿li {
+    display: inline-block;
+    margin: 0 10px;
+}
+table {
+    background-color:blue;
+}
+body {
+    color:white;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
