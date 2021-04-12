@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="pr1.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div id="signup">
+        <div style="display:flex">
+            <h3> Sign Up</h3>
+            <p></p>
+        </div>
+        
+        <form id="signup_form">
+            <div class="name">
+                <input type="text" placeholder="First Name" required />
+                <input type="text" placeholder="Last Name" required />
+            </div>
+            
+            <input type="tel" placeholder="Mobile Number" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <input type="password" placeholder="Confirm Password" required />
+
+            <div>
+                <input type="checkbox" checked="checked" name="Iagree" style="margin-bottom:15px" /> I agree
+                <p>
+                    By clicking <span style="background-color:cornflowerblue;border:1px">register</span> you agree to
+                    <a href="#" style="color:dodgerblue">Terms & Condition</a> set by
+                    this site, including our cookie.
+                </p>
+            </div>
+                
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="registerbtn">Register</button>
+            <button type="submit" class="signinbtn">Sign In</button>
+           
+        </form>
+    </div>
+</body>
+</html>
